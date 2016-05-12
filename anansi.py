@@ -5,7 +5,7 @@
 # Title:        Twitter ingestion tool
 # Author:       Rebecca Bilbro
 # Version:      1.0
-# Date:         last updated 5/6/16
+# Date:         last updated 5/12/16
 # Organization: Commerce Data Service, U.S. Department of Commerce
 
 
