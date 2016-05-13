@@ -35,13 +35,15 @@ The result will be a list of tweets for the query "wmata" in data/stream_wmata.j
 ## Experiment 1
 ### Log 1
  - Ingestion began Thursday, May 12, 2016 at 2:52PM EST     
- - 675 wmata tweets collected by Friday, May 13, 2016 at 12:04AM EST    
- - storage: 3,437,721 bytes (3.4 MB on disk)   
+ - 675 wmata tweets collected as of Friday, May 13, 2016 at 12:04AM EST    
+ - storage: 3,437,721 bytes (3.4 MB on disk)    
 ### Log 2  
  - 1480 wmata tweets collected as of Friday, May 13, 2016 at 10:42AM EST    
  - storage: 6,997,619 bytes (7 MB on disk)    
-
-
+### Log 3  
+ -
+ -
+ 
 ## To Dos
  - target: 1 million tweets    
  - trim JSON to compress storage, aiming for 200MB for full dataset    
