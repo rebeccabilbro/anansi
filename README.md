@@ -32,9 +32,10 @@ python anansi.py -q wmata -d data
 The result will be a list of tweets for the query "wmata" in data/stream_wmata.json. _Hint: you can replace 'wmata' with a search term of your own depending on your topic interest._
 
 
-## Experiment 1
-### Log 1
- - Ingestion began Thursday, May 12, 2016 at 2:52PM EST     
+## Experiment 1    
+ - Ingestion began Thursday, May 12, 2016 at 2:52PM EST    
+
+### Log 1   
  - 675 wmata tweets collected as of Friday, May 13, 2016 at 12:04AM EST    
  - storage: 3,437,721 bytes (3.4 MB on disk)    
 
@@ -47,8 +48,8 @@ The result will be a list of tweets for the query "wmata" in data/stream_wmata.j
  - storage: 17,550,666 bytes (17.6 MB on disk)   
 
 ### Log 4  
-  -          
-  - storage:     
+  - 3948 wmata tweets collected as of Saturday, May 14, 2016 at 6:09PM EST         
+  - storage: 19,250,900 bytes (19.3 MB on disk)     
 
 
 ## To Dos
