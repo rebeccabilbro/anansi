@@ -22,9 +22,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 #####################################################################
 # Clusterize
 #####################################################################
-def clusterize(input, k):
-    vectorizer = TfidfVectorizer(input=input, max_df=0.5, min_df=2, stop_words='english')
-    X = vectorizer.fit_transform(input)
+def clusterize(content, k):
+    vectorizer = TfidfVectorizer(input=content, max_df=0.5, min_df=2, stop_words='english')
+    X = vectorizer.fit_transform(content)
 
     km = KMeans(n_clusters=k, init='k-means++', max_iter=100)
     km.fit(X)
